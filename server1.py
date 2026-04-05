@@ -21,4 +21,4 @@ def send_message():
         return "failed to send message", response.status_code
 
 if __name__ == "__main__":
-    app.run(port=FLASK_PORT, debug=True)
+    app.run(port=FLASK_PORT)

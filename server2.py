@@ -14,4 +14,4 @@ def webhook():
     return jsonify(success=True), 200
 
 if __name__ == "__main__":
-    app.run(port=FLASK_PORT, debug=True)
+    app.run(port=FLASK_PORT)
